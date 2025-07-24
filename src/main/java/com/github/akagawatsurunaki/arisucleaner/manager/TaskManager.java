@@ -8,6 +8,8 @@ import static com.github.akagawatsurunaki.arisucleaner.task.ClearItemsTask.DEFAU
 import static com.github.akagawatsurunaki.arisucleaner.task.ClearItemsTask.DEFAULT_TIPS_TICKS;
 
 public class TaskManager {
+    // Do not allow anyone to instantiate this class
+    private TaskManager() {}
 
     public static final TaskManager INSTANCE = new TaskManager();
 
